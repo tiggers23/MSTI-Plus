@@ -1,0 +1,35 @@
+train_file: '../datasets/train.txt'
+val_file: '../datasets/dev.txt'                 
+test_file: '../datasets/test.txt' 
+
+image_root: '../datasets/images' 
+feature_root: '../datasets/vit_features.B32.crop_images.pkl' 
+
+num_of_tags: 9
+auxnum_labels: 7
+class_num: 2
+
+image_res: 384
+batch_size: 16
+hidden_size: 768
+
+bert_config: 'configs/config_bert.json'
+vit: vit_base_patch32_384
+max_image_len: -1
+max_text_len: 512
+drop_rate: 0.1
+
+alpha: 0.4
+distill: True
+warm_up: True
+eval_ema: False
+
+optimizer: {opt: adamW, lr: 5e-5, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 5e-5, epochs: 40, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 1, cooldown_epochs: 0}
+
+
+
+
+
+
+
