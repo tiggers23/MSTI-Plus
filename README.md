@@ -1,5 +1,5 @@
 # MSTI-Plus: Introducing Non-Sarcasm Reference Materials to Enhance Multimodal Sarcasm Target Identification
-
+Code release for MSTI-Plus: Introducing Non-Sarcasm Reference Materials to Enhance Multimodal Sarcasm Target Identification
 
 ## Dataset Download
 
