@@ -5,8 +5,8 @@ Code release for MSTI-Plus: Introducing Non-Sarcasm Reference Materials to Enhan
 
 You can download the dataset and related files through the following Baidu Netdisk link:
 
-- **Baidu Netdisk Link**: [Click here to download](https://pan.baidu.com/s/1RpWicIPGRhrmGcqZa_Gdqg)  
-- **Access Code**: `vwem`
+- **Baidu Netdisk Link**: [Click here to download](https://pan.baidu.com/s/1aBl2NK1JmVRo740jJDmqZA)  
+- **Access Code**: `kr94`
 
 ## Training SaSTI 
 Please run 'python main.py --device <gpu_id>' for training our model.
